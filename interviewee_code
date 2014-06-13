@@ -1,0 +1,11 @@
+import time
+
+q = open('q.txt')
+a = open('a.txt')
+time.sleep(3)
+for line in zip(q,a):
+    print "Q: " + line[0]
+    time.sleep(3)
+    print "A: " + line[1]
+    time.sleep(15)
+quit()
